@@ -1,0 +1,180 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hexo</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/bear.jpg">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/bear.jpg"><link rel="shortcut icon" href="/img/openai.svg"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hexo',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-02-27 23:40:56'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.1.1"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/bear.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Hexo"><span class="site-name">Hexo</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Hexo</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2024/02/27/how-to-register-chatgpt/" title="ChatGPT 怎么注册账号，新手小白最新详细使用教程-（国内可用接码手机推荐）"><img class="post-bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ChatGPT 怎么注册账号，新手小白最新详细使用教程-（国内可用接码手机推荐）"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/02/27/how-to-register-chatgpt/" title="ChatGPT 怎么注册账号，新手小白最新详细使用教程-（国内可用接码手机推荐）">ChatGPT 怎么注册账号，新手小白最新详细使用教程-（国内可用接码手机推荐）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-27T13:12:07.000Z" title="发表于 2024-02-27 21:12:07">2024-02-27</time></span></div><div class="content">升级 ChatGPT PlusChatGPT 的火爆程度一直居高不下，相信大家对它的名字早已耳熟能详。这得益于它不仅功能强大，而且关键的是账户永久免费使用（请注意：官方账户确实是永久免费的，任何需要充值才能提问或者提问次数有限制的都是盗版山寨产品）。然而，ChatGPT 并不支持国内网络和国内用户，许多刚接触的朋友可能对 ChatGPT 还不太了解，不知道如何才能拥有账号。本文将一步一步向大家解释，ChatGPT 是什么，以及如何使用和注册账号。
+2024最新教程已经不需要手机号，参考这篇文章: ChatGPT账号注册，无需手机号验证码
+(PS: 如果你已经有了 ChatGPT账号，需要升级 Plus 可以看这篇教程，几分钟搞定: ChatGPT升级Plus支付教程)
+ChatGPT 是什么ChatGPT 是由 OpenAI 开发的一款大型语言模型，擅长处理各种自然语言任务，如回答问题、生成文本和进行对话等。
+简而言之，Chat GPT 是最新一代的通用超强 AI，拥有庞大的知识库，能够回答形形色色的问题。无论您有什么疑问，向 ChatGPT 提问就能得到解答！
+ChatGPT 自20 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/02/27/how-to-payment-chatgpt/" title="如何购买ChatGPT Plus？信用卡付款失败怎么办？使用虚拟信用卡升级ChatGPT Plus 指南"><img class="post-bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何购买ChatGPT Plus？信用卡付款失败怎么办？使用虚拟信用卡升级ChatGPT Plus 指南"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/02/27/how-to-payment-chatgpt/" title="如何购买ChatGPT Plus？信用卡付款失败怎么办？使用虚拟信用卡升级ChatGPT Plus 指南">如何购买ChatGPT Plus？信用卡付款失败怎么办？使用虚拟信用卡升级ChatGPT Plus 指南</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-27T13:02:22.000Z" title="发表于 2024-02-27 21:02:22">2024-02-27</time></span></div><div class="content">ChatGPT Plus提供比标准版本更快的速度、增强的性能，并且优先体验新功能。然而，在GPT4的付费订阅过程中，许多用户在使用信用卡支付时遇到障碍。
+常见的问题包括OpenAI系统拒绝接受信用卡，建议改用借记卡支付。这里是一些常见的错误提示：
+
+Your credit card was declined.Try paying with a debit card instead.
+您的信用卡被拒绝了。请尝试用借记卡支付。
+你的卡已被拒绝。
+您的金融卡已被拒绝。
+您拒绝了。请尝试用签账卡支付。
+我们未能验证您的支付方式。请选择另一支付方式并重试。
+
+一、ChatGPT Plus信用卡付款被拒的原因信用卡付款失败可能由以下原因导致：
+
+信用卡余额不足。
+更换IP地址、支付卡或账单地址可能无法成功绑定卡片。
+如果账号登录或支付过程中需要验证码，可能表示账号被视为高风险。
+OpenAI可能因用户违反政策或从高风险IP地址访问服务而拒绝提供付费服务。
+
+二、解决方案一种有效的解决方法是申请一张新的虚拟信用卡，这可以绕开风控系统。在某些情况下，甚至建议重新注册ChatGPT账号。如果虚拟卡支付仍 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/02/27/upgrade-chatgpt-to-plus/" title="2024 年升级 ChatGPT Plus 的教程(使用虚拟信用卡升级 GPT4.0)"><img class="post-bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2024 年升级 ChatGPT Plus 的教程(使用虚拟信用卡升级 GPT4.0)"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/02/27/upgrade-chatgpt-to-plus/" title="2024 年升级 ChatGPT Plus 的教程(使用虚拟信用卡升级 GPT4.0)">2024 年升级 ChatGPT Plus 的教程(使用虚拟信用卡升级 GPT4.0)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-02-27T11:30:49.000Z" title="发表于 2024-02-27 19:30:49">2024-02-27</time></span></div><div class="content">一、ChatGPT4.0 的优势（PS：如果想直接一键注册可以看 https://bewildcard.com/i/GPT97，注册的时候如果没有填邀请码，可以手动填入 GPT97 邀请码，可以免 2 美元的开卡费）
+众所周知的原因，目前 Openai 已经把资源更多投入到 GPT4 以及训练未来 GPT5 了，GPT3.5 已经被一定程度上降智，同时 ChatGPT 4 支持多模态、GPTS 等能力，我个人感受来说，日常工作、编程、写文章已经完全离不开 4.0 了，这也是目前为止，我唯一一个愿意每个月掏 20 美元付费的产品。
+二、升级 4.0 为什么这么难？但是升级 ChatGPT 4.0 很麻烦，不仅需要国外 VISA、Master 等双币信用卡，还需要有干净的 IP （国外IP，梯子用的人少），CHATGPT 是使用 stripe 进行收款，stripe 会根据账单地址、IP 地址等进行风控，国内付款一般都会被拦截。
+常常会见到这些报错：
+
+Your credit card was declined.Try paying with a debit card instead.
+
+ ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/bear.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎咨询！微信：Wouter970121</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/02/27/how-to-register-chatgpt/" title="ChatGPT 怎么注册账号，新手小白最新详细使用教程-（国内可用接码手机推荐）"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ChatGPT 怎么注册账号，新手小白最新详细使用教程-（国内可用接码手机推荐）"/></a><div class="content"><a class="title" href="/2024/02/27/how-to-register-chatgpt/" title="ChatGPT 怎么注册账号，新手小白最新详细使用教程-（国内可用接码手机推荐）">ChatGPT 怎么注册账号，新手小白最新详细使用教程-（国内可用接码手机推荐）</a><time datetime="2024-02-27T13:12:07.000Z" title="发表于 2024-02-27 21:12:07">2024-02-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/02/27/how-to-payment-chatgpt/" title="如何购买ChatGPT Plus？信用卡付款失败怎么办？使用虚拟信用卡升级ChatGPT Plus 指南"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="如何购买ChatGPT Plus？信用卡付款失败怎么办？使用虚拟信用卡升级ChatGPT Plus 指南"/></a><div class="content"><a class="title" href="/2024/02/27/how-to-payment-chatgpt/" title="如何购买ChatGPT Plus？信用卡付款失败怎么办？使用虚拟信用卡升级ChatGPT Plus 指南">如何购买ChatGPT Plus？信用卡付款失败怎么办？使用虚拟信用卡升级ChatGPT Plus 指南</a><time datetime="2024-02-27T13:02:22.000Z" title="发表于 2024-02-27 21:02:22">2024-02-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/02/27/upgrade-chatgpt-to-plus/" title="2024 年升级 ChatGPT Plus 的教程(使用虚拟信用卡升级 GPT4.0)"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2024 年升级 ChatGPT Plus 的教程(使用虚拟信用卡升级 GPT4.0)"/></a><div class="content"><a class="title" href="/2024/02/27/upgrade-chatgpt-to-plus/" title="2024 年升级 ChatGPT Plus 的教程(使用虚拟信用卡升级 GPT4.0)">2024 年升级 ChatGPT Plus 的教程(使用虚拟信用卡升级 GPT4.0)</a><time datetime="2024-02-27T11:30:49.000Z" title="发表于 2024-02-27 19:30:49">2024-02-27</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/ChatGPT-Plus/" style="font-size: 1.5em; color: #99a9bf">ChatGPT Plus</a> <a href="/tags/ChatGPT/" style="font-size: 1.3em; color: #99a1ac">ChatGPT</a> <a href="/tags/%E8%99%9A%E6%8B%9F%E4%BF%A1%E7%94%A8%E5%8D%A1/" style="font-size: 1.1em; color: #999">虚拟信用卡</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">3</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-02-27T15:40:56.883Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By John Doe</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
